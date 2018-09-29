@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <meta charset="utf-8" />
+    <title>My web</title>
+</head>
+
+<body class="body">
+    <header class="head">
+        <h1 style="color:gray;"><strong>UK Education</strong></h1>
+     
+
+        <nav class="link">
+           <ul class="ul">
+               <li class="box"><a href="#.home"><img class="image" src="image.png" > home</a><ul class="submenu"><li>111</li><li></li>222</li><li>333</li></ul></li>
+               <li class="box"><a href="#.about"><img class="image" src="about.jpg">about</a></li>
+               <li class="box"><a href="#.service"><img class="image" src="service.png">services</a></li>
+               <li class="box"> <a href="#.contact"><img class="image" src="contact.png">contact</a></li>
+           </ul>
+        </nav>
+    </header>
+    <section>
+        <aside id="asidd">
+            <br />
+            <h1 style="color:#a2c331;font-family:Centaur;"><strong>Join Us</strong></h1>
+            <form action="/action_page.php" id="form">
+                First Name:<br />
+                <input type="text" name="first name"><br />
+                Last Name:<br />
+                <input type="text" name="Last name" /><br />
+                Male:
+                <input type="radio" name="gender" value="male" /><br />
+                Female:
+                <input type="radio" name="gender" value="female" /><br />
+                <input type="submit" value="submit" />
+
+            </form><br />
+            
+            <button type="button" onclick="MyFunction()">Article1</button>
+                
+            <p id="demo">Article</p>
+            <script>
+    function MyFunction() {
+        document.getElementById("demo").innerHTML=" Lecture at the Faculty of Biomedical Engineering, Czech Technical University, in Prague, Czech Republic School children sitting in the shade of an orchard in Bamozai, near Gardez, Paktya Province, Afghanistan Student participants in the FIRST Robotics Competition.";
+    }
+                </script>
+            <button type="button" onclick="myFunction()">Article2</button>
+
+            <p id="Demo">Article</p>
+            <script>
+                function myFunction() {
+                    document.getElementById("Demo").innerHTML = " Lecture at the Faculty of Biomedical Engineering, Czech Technical University, in Prague, Czech Republic School children sitting in the shade of an orchard in Bamozai, near Gardez, Paktya Province, Afghanistan Student participants in the FIRST Robotics Competition.";
+                }
+            </script>
+            
+           </aside>
+        <article class="art"><br>
+          
+            <a href="article1/art1.html"><h1>Arden University</h1><img id="image1" src="arden.jpg"></a><br>
+            <a href="article1/cam.html"><h1>Cambridge University</h1><img id="image1" src="cambridg.jpg"></a>
+
+            
+        </article>
+    </section>
+    <footer id="foot">
+       
+        <ul id="contact">
+            <header>Contact Us:</header>
+            <li>Phon Numbers:<ol><li>123456</li><li>987654</li></ol></li>
+            <li>Email:<ol><li>nasirelahe@gmail.com</li><li>Nasirelahe@yahoo.com</li></ol></li>
+        </ul>
+
+    </footer>
+</body>
+</html>
